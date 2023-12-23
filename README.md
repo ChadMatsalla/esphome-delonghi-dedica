@@ -7,6 +7,13 @@ The Approach
 The Hardware
 
 Delonghi Dedica EC680M
+![Delonghi Dedica]
+(/assets/images/delonghi-dedica.jpg)
+![Delonghi Dedica]
+(/images/delonghi-dedica.jpg)
+
+![Dedica]
+(https://dam.delonghi.com/600x600/assets/223708)
 
 https://www.delonghi.com/en-ca/dedica-manual-espresso-machine-stainless-steel-ec680m/p/EC680M
 
