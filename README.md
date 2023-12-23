@@ -7,29 +7,15 @@ The Approach
 The Hardware
 
 Delonghi Dedica EC680M
-![Delonghi Dedica]
-(/assets/images/delonghi-dedica.jpg)
-![Delonghi Dedica]
-(/images/delonghi-dedica.jpg)
-
-![Dedica]
-(https://dam.delonghi.com/600x600/assets/223708)
-
-https://www.delonghi.com/en-ca/dedica-manual-espresso-machine-stainless-steel-ec680m/p/EC680M
+![Delonghi Dedica](/images/delonghi-dedica.jpg)
 
 ESP32, ESP8266, Arduino, Raspberry Pi, or any device with GPIOs
-
-I used an ESP32 devkitc like this:
-https://www.aliexpress.com/item/4000090521976.html
+- I used a Lolin D32 like this:
+![Lolin D32](/images/lolin-d32.jpg)
 
 Relay module
 - I used a generic relay module like this:
-https://www.aliexpress.com/item/1005001903120199.htm
+![Relay Module](/images/relay-module.jpg)
 
 Waterproof butt connectors
-
-https://www.aliexpress.com/item/1005004112513811.html
-
-
-
-
+![Waterbproof Butt Connectors](/images/waterproof-butt-connectors.jpg)
