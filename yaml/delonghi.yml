@@ -1,0 +1,53 @@
+# there are three buttons on the control panel
+# the leftmost button is Sarah's button - it dispenses her preferred volume of coffee
+# the middle button is Chad's button - it dispenses his preferref volume of coffee
+
+esphome:
+  name: delonghi-robot
+  friendly_name: "Delonghi Dedica Remote"
+  platformio_options:
+    upload_speed: 921600
+  includes:
+
+esp32:
+  board: esp32dev
+  framework:
+    type: arduino
+
+# Enable logging
+logger:
+  level: DEBUG
+
+# Enable Home Assistant API
+api:
+  encryption:
+    key: !secret encryption_key
+
+ota:
+
+wifi: !include ../fragments/wifi-918.yml
+#  use_address: 192.168.1.69
+
+switch:
+  - platform: gpio
+    id: chadButton
+    icon: mdi:coffee-maker-outline
+    pin:
+      number: GPIO32
+      # inverted: true
+    name: "Chad's Coffee"
+    restore_mode: RESTORE_DEFAULT_OFF
+    on_turn_on:
+      - delay: 2s
+      - switch.turn_off: chadButton
+  - platform: gpio
+    id: sarahButton
+    icon: mdi:coffee-maker
+    pin:
+      number: GPIO33
+      # inverted: true
+    name: "Sarah's Coffee"
+    restore_mode: RESTORE_DEFAULT_OFF
+    on_turn_on:
+      - delay: 1s
+      - switch.turn_off: sarahButton
