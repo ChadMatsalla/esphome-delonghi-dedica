@@ -13,7 +13,8 @@ In previous versions I used the relay board because my partner wanted both the '
 
 For people who want to automate one of the buttons and are uncomfortable with wiring or soldering, I've been happy to use M5 Stack products. I'd recommend the [M5 Atom-Lite](https://docs.m5stack.com/en/core/Atom-Lite) or something even smaller like the [C125 Nano C6](https://docs.m5stack.com/en/core/NanoC6)and the [U023 M5 unit relay](https://docs.m5stack.com/en/unit/Unit_Relay). If you need to control both buttons you can use the [U131 Unit 2Relay](https://docs.m5stack.com/en/unit/Unit_2Relay). *DO NOT USE ARDUINO, use esphome*
 
-
+If you like to spend money and want a combined approach, I like the [K042-D ATOM HUB SwitchD 2-Relay Kit](https://shop.m5stack.com/products/atom-hub-switchd-2-relay-kit).
+<img src="https://shop.m5stack.com/cdn/shop/products/5_ac236052-5d22-4099-a30a-2b563f275791_1200x1200.jpg" width=300 />
 
 
 
