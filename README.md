@@ -11,6 +11,11 @@ The Hardware
 
 In previous versions I used the relay board because my partner wanted both the 'single drop' and 'double drop' buttons to be operated. That was very clunky. I since designed a circuit board with 2 transistors to close the circuit to press the buttons. Much smaller and easier.
 
+For people who want to automate one of the buttons and are uncomfortable with wiring or soldering, I've been happy to use M5 Stack products. I'd recommend the [M5 Atom-Lite](https://docs.m5stack.com/en/core/Atom-Lite) or something even smaller like the [C125 Nano C6](https://docs.m5stack.com/en/core/NanoC6)and the [U023 M5 unit relay](https://docs.m5stack.com/en/unit/Unit_Relay). If you need to control both buttons you can use the [U131 Unit 2Relay](https://docs.m5stack.com/en/unit/Unit_2Relay). *DO NOT USE ARDUINO, use esphome*
+
+
+
+
 
 Delonghi Dedica EC680M
 ![Delonghi Dedica](/images/delonghi-dedica.jpg)
